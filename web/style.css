@@ -1,0 +1,192 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11-Mar-2019, 21:26:22
+    Author     : Katia
+*/
+#container{
+    margin: 0 auto;
+    width: 600px;
+    background: purple;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+/*
+*** Layout ***
+*/
+#content{
+    clear: left;
+    padding: 210px;
+    color: white;
+    font-size: 2em;
+    
+    
+}
+#area-head{
+	background-color: purple;
+	padding: 15px;
+	text-align: center;
+}
+
+#area-logo, #area-menu{
+	padding: 10px;
+}
+
+#area-main{
+	background: white;
+	width: 920px;
+	margin:0 auto;
+	padding: 15px;
+}
+
+
+#area-postagens{
+	width: 660px;
+	float: left;
+
+}
+
+#area-lateral{
+	width: 240px;
+	float: right;
+}
+
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+.conteudo-lateral{
+	background: #d3d3d3;
+	color: purple;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.postagem-lateral{
+	font-size: 1em;
+	padding: 5px;
+
+}
+
+#footer{
+	clear: both;
+	text-align:center;
+	padding: 15px;
+	background: #CCC;
+}
+/*
+*** menu ***
+*/
+
+a{
+	text-decoration: none;
+}
+
+#area-menu a:link, #area-menu a:visited{
+	color: #FFF;
+	padding: 8px 12px;
+}
+
+#area-menu a:hover{
+	color:purple;
+	background: #FFF;
+
+}
+
+/*
+*** geral ***
+*/
+
+h1{
+	color: white;
+	font-size: 2.5em;
+}
+
+h2{
+	color: purple;
+}
+
+h3{
+	color: purple;
+}
+
+h4{
+	color: white;
+	background: purple;
+	padding: 5px;
+}
+
+img {
+  float:right;
+  margin-left: 1px;
+}
+
+p {
+  text-align: justify;
+}
+ul{
+	list-style: disc;
+}
+
+label{
+	font-family: Lucida;
+	font-size: 15pt;
+	color: purple;
+
+	}
+        
+legend{
+	font-family: Arial;
+	font-size: 15pt;
+	color: blue;
+	
+    }        
+        
+.data-postagem{
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+	
+}
+.blue{
+	color: blue;
+}
+.bnt-style{
+    color: white;
+    font-size: 0.9em ;
+    width: 135px;
+    height: 30px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: purple;  
+    text-align:center;
+    }
+.input-style{
+	 font-size: 0.9em ;
+    width: 135px;
+    height: 30px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    
+}
+
+
